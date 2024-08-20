@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+}
+.hover\:bg-gradient-dark:hover {
+    background: linear-gradient(135deg, #2b6cb0, #2f855a); /* Another darker gradient example */
+  }
